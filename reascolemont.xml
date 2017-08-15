@@ -1,0 +1,11 @@
+<Context>
+
+	<Realm className="com.colemont.reas.seguridad.RealmLDAP"
+	urlServidor="ldap://192.168.0.2:389"
+	dominio="colmx.local"
+	baseBusqueda="ou=usuarios,dc=colmx,dc=local"   
+	grupoConsulta="SistemaReaseguro" 
+     	/>
+
+
+</Context>
